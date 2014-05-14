@@ -25,7 +25,7 @@ h1{
     font-weight:bold;
     text-decoration:none;
     text-align:center;
-    margin-top:15px;
+    padding-top:15px;
 }
 .squ{
     text-align:center;
@@ -72,26 +72,24 @@ h1{
 }
 
 .block2{
-float:left;
-background-image:url(images/bg2.gif);
-background-position:top left;
-background-repeat:repeat-x;
-width:486px;
-height:90px;
-border-left:1px solid #007EAB;
-border-right:1px solid #007EAB
+    margin: 0 auto;
+    background-image:url(images/bg2.gif);
+    background-repeat:repeat-x;
+    width:486px;
+    height:90px;
+    border-left:1px solid #007EAB;
+    border-right:1px solid #007EAB
 }
 
-
 .block3{
-background-image:url(images/bg1.gif);
-background-position:topleft;
-background-repeat:repeat-x;
-width:180px;
-height:70px;
-float:left;
-border-left:1px solid #001742;
-padding:20px 0 0 25px;
+    background-image:url(images/bg1.gif);
+    background-repeat:repeat-x;
+    width:180px;
+    height:70px;
+    float:right;
+    border-left:1px solid #001742;
+    padding:20px 0 0 25px;
+    margin-top: -90px;
 }
 .block3 img{
 float:left;
