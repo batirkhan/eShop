@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 include('db_fns.php');
 
 $r = empty($_GET['r']) ? 'index' : $_GET['r'];
